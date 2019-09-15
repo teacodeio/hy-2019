@@ -1,0 +1,42 @@
+{
+  "name": "hy-2019-admin",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@feathersjs/authentication-client": "^4.3.1",
+    "@feathersjs/feathers": "^4.3.1",
+    "@feathersjs/rest-client": "^4.3.1",
+    "@feathersjs/socketio-client": "^4.3.1",
+    "prop-types": "^15.7.2",
+    "ra-data-feathers": "^2.3.0",
+    "ra-data-json-server": "^2.9.6",
+    "ra-realtime": "^2.8.6",
+    "react": "^16.9.0",
+    "react-admin": "^2.9.6",
+    "react-dom": "^16.9.0",
+    "react-scripts": "3.1.1",
+    "socket.io-client": "^2.2.0",
+    "inflection": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
